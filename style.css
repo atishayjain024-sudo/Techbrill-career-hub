@@ -1271,7 +1271,7 @@ p  { color: var(--text-muted); }
 
 /* ── NAVBAR ──────────────────────────────────────────────── */
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 0; left: 0; right: 0;
   height: var(--navbar-h);
   background: var(--bg);
@@ -1300,7 +1300,7 @@ p  { color: var(--text-muted); }
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.3rem;
 }
 .nav-links a {
   font-size: 0.875rem;
